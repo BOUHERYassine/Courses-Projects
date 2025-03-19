@@ -1,8 +1,7 @@
-Courses-Projects
+# Courses-Projects
 
 Here is a list of my courses over the last 3 years. In some courses, there are projects which are mentioned in $${\color{red}red}$$
 
-Next, I present my internship topics in detail.
 
 ## MVA
 
