@@ -1,6 +1,6 @@
 Courses-Projects, Internships
 
-Here is a list of my courses over the last 3 years. In some courses, there are projects are mentioned in <code style="color: red">red</code>.
+Here is a list of my courses over the last 3 years. In some courses, there are projects are mentioned in <code style="color: red">red</code>. $${\color{red}Red}$$
 
 Next, I present my internship topics in detail.
 
