@@ -30,8 +30,12 @@ Next, I present my internship topics in detail.
 
 ### Collaborative machine learning and decentralized learning
 - Fully research-axed course
-- Study of decentralized learning
+- Study of decentralized learning, gossip matrix
 - Presentation of the following article : $${\color{red}\text{Accelerated Decentralized Optimization with Local Updates for Smooth and Strongly Convex Objectives}}$$ [ARTICLE](https://arxiv.org/abs/1810.02660)
+    - Presentation of the article
+    - We have shown that this algorithm cannot be Chebyshev accelerated : That means that we cannot trade between computation time (compute the gradient) and communication time (propagate the gradient to its neighbors)
+    - We have shown that, at the moment the article was published, in general, asynchronous algorithms cannot compete against synchronous one
+    - Here, asynchonous means that the nodes are not all updated simultaneously.
 
 ### Statistical Learning
 - Rademacher complexity, VC dimension, PAC learning
