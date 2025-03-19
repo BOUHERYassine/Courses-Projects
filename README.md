@@ -11,11 +11,11 @@ Next, I present my internship topics in detail.
 - Tokenizer, Attention mechanism, positional encoding
 - $${\color{red}\text{Code a tokenizer for additions}}$$
     - We coded several tokenizers that are adapted to additions. We achieved good results (up to additions of numbers with 9 digits), by grouping units with units, tens with tens etc...)
-- Specificities of DeepSeek, GRPO, Multi-head lattent attention
+- Specificities of DeepSeek, GRPO, Multi-head latent attention
 - We reproduce the GRPO code with simple examples 
 
-### Genrative AI for images
-- Generative Adversarial Networks and Wasserstein Generative Adversarial Networks (with the Wassertein loss derived from the optimal transport)
+### Generative AI for images
+- Generative Adversarial Networks and Wasserstein Generative Adversarial Networks (with the Wasserstein loss derived from the optimal transport)
 - Variational Autoencoders
 - Diffusion models
 - Presentation of the following article $${\color{red}\text{Neural Optimal Transport}}$$ [ARTICLE](https://arxiv.org/abs/2201.12220)
@@ -23,7 +23,7 @@ Next, I present my internship topics in detail.
     - The optimal transport with $\gamma$-weak Wasserstein-2 cost can be traduced as an optimization under constraints
     - We prove some points of the article, including the main idea of the article which is noise outsourcing
     - We reproduce some 2D experiment where we transport a gaussian distribution into a mixture of gaussian/circle/line distribution
-    - We show that this model is excellent when transporting images to images, but not powerful enoughto transport gaussian noise to images (that means not powerful enough for image generation like WGAN/VAE/Diffusion)
+    - We show that this model is excellent when transporting images to images, but not powerful enough to transport gaussian noise to images (that means not powerful enough for image generation like WGAN/VAE/Diffusion)
 
 ### Graphs in ML
 - How to construct a graph from a list of points, how to represent them
@@ -67,7 +67,7 @@ Next, I present my internship topics in detail.
     - Introduction of calibrated predictors, asymptotic optimal predictors
     - Reproducing the forecasting of extreme values of the solar flare dataset obtained from the NASA open-source archive
     - Comparison of performances between a baseline model, a FARIMA process and an AR process
-    - We show that our results are coherent with the authors' findings. At a fixed horizon h, we have the precision of the 3 predictors assopciated with each methods. The precision is the probability of actually observing an extreme event knowing that there is one extrme event at t+h. The bigger the horizon, the more performant the FARIMA process is compared to the baseline.
+    - We show that our results are coherent with the authors' findings. At a fixed horizon h, we have the precision of the 3 predictors associated with each methods. The precision is the probability of actually observing an extreme event knowing that there is one extreme event at t+h. The bigger the horizon, the more performant the FARIMA process is compared to the baseline.
 
 ### Time Series
 - Pattern recognition and detection
@@ -92,7 +92,7 @@ Next, I present my internship topics in detail.
     - Presentation of the article
     - We have shown that this algorithm cannot be Chebyshev accelerated : That means that we cannot trade between computation time (compute the gradient) and communication time (propagate the gradient to its neighbors)
     - We have shown that, at the moment the article was published, in general, asynchronous algorithms cannot compete against synchronous one
-    - Here, asynchonous means that the nodes are not all updated simultaneously.
+    - Here, asynchronous means that the nodes are not all updated simultaneously.
 
 ### Statistical Learning
 - Rademacher complexity, VC dimension, PAC learning
@@ -102,10 +102,10 @@ Next, I present my internship topics in detail.
 ### Random and statistical process modelling
 -Overview of a lot of statistical methods
 - Central Limit theorem adapted for medians
-- Stastics of extreme values
+- Statistics of extreme values
 - AR and MA processes, and all of its variants (ARIMA, ARFIMA, SARIMAX, SARIMA etc..)
 - $${\color{red}\text{Study of statistical methods}}$$
-    - Extreme values on CAC40 data with Picklands and Hill estimators (to caracterize the type of the extreme)
+    - Extreme values on CAC40 data with Picklands and Hill estimators (to characterize the type of the extreme)
     - GARCH and ARCH processes on CAC40 data to study the variance/volatility
     - I do not develop the results obtained because they were deceiving, the idea of the project was rather to play with the concepts
 
@@ -117,7 +117,7 @@ Next, I present my internship topics in detail.
 - Quasi-Monte Carlo
 
 ### Foundation of Machine Learning
-- In-depth study of theoretical guarantees of Machine Leaning (wth Hoeffding's and McDiarmid's inequalities)
+- In-depth study of theoretical guarantees of Machine Learning (wth Hoeffding's and McDiarmid's inequalities)
 - Overview of most of machine learning algorithms, Ensemble methods, SVM, Clustering, Gradient descent, Deep learning
 ### Stochastic calculus
 - Brownian motion
@@ -132,7 +132,7 @@ Next, I present my internship topics in detail.
   
     - In machine learning, we use a lot the PCA methods, however, few of us know the link between the estimated covariance matrix, and the true covariance matrix, and we studied it.
     - In our case, we considered an distribution of features X (can be an "infinite matrix") evolving on a Hilbert space $\mathbb{H}$, its covariance matrix is $\Sigma = \mathbb{E}(X \otimes X)$
-    - We sample $X_1$, ..., $X_n$ from X, we obtain empirical estimators of the covariance matrix and the eingenvalues : $\hat{\Sigma_n} = \sum_{i=1}^n X_i \otimes X_i = \sum_{j\ge 1} \hat{\lambda_j} \hat{\theta_j} \otimes \hat{\theta_j}$
+    - We sample $X_1$, ..., $X_n$ from X, we obtain empirical estimators of the covariance matrix and the eigenvalues : $\hat{\Sigma_n} = \sum_{i=1}^n X_i \otimes X_i = \sum_{j\ge 1} \hat{\lambda_j} \hat{\theta_j} \otimes \hat{\theta_j}$
     - We want to know how close, in terms of n, are the empirical estimators close to the real values.
     - We reproduce the Proof of **Vershynin** (2011). If the $\mathbb{H} = \mathbb{R}^p$, and if X is sub-gaussian ans isotropic ($\Sigma = I$), we have $$\lVert \hat{\Sigma_n} - \Sigma \lVert < C (\sqrt{\frac{p}{n}} \vee \frac{p}{n} \vee \sqrt{\frac{t}{n}} \vee \frac{t}{n})$$   , with a probability of at least $1-e^{-t}$
     - Now that the covariance matrix convergence is bounded, we can bound the convergence of eigenvalues with Lidskii's inequality : $$\max_{j \ge 1} |\hat{\lambda_j} - \lambda_j| < \lVert \hat{\Sigma} - \Sigma \rVert$$
@@ -143,9 +143,9 @@ Next, I present my internship topics in detail.
 - $${\color{red}\text{Prediction of a Premier League season using previous seasons and Monte Carlo methods}}$$
   
     - In 2015-2016, Leicester won their Premier League despite being far from favourites. The bookmakers haven't even given them a 0.5% chance.
-    - In our modelling of Premier Ligue, we used previous seasons to modelise the strength of a team i $V_i$. This is the **Bradley-Terry** model. In this case, when the team i faces the team j, their probability to win is $\frac{V_i}{V_i+V_j}$ (note that ties are not allowed).
+    - In our modelling of Premier Ligue, we used previous seasons to model the strength of a team i $V_i$. This is the **Bradley-Terry** model. In this case, when the team i faces the team j, their probability to win is $\frac{V_i}{V_i+V_j}$ (note that ties are not allowed).
     - With that, we case modelise Premier League, but Leicester has a winrate of 0% when we use Naive Monte Carlo
-    - We use importance sampling to modify the strenghts of the teams (the more we modify, the bigger the corrective term will be)
+    - We use importance sampling to modify the strengths of the teams, where the more we modify, the larger the corrective term becomes.
     - With that, we predised the chances for Leicester to Win, and it was a frequency of the order of $10^{-4}$
 
 ### Statistics
