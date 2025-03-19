@@ -39,14 +39,14 @@ Next, I present my internship topics in detail.
 - Lagragian and saddle points
 - First and second order methods
 
-### Reinforcment Learning
-- Foundation of reinforcment learning, policy, optimal policy, reward, Bellman equations etc..
+### Reinforcement Learning
+- Foundation of reinforcement learning, policy, optimal policy, reward, Bellman equations etc..
 - Theoretical study of learning policies
 - Fitted Q-iterations
 - deep Q-networks
 - Proximal policy optimization
 - ${\color{red}\text{Reinforcement Learning for optimal HIV treatment decision-making}}
-    - Challenge inspired by the 2006 paper by Ernst & al. [Clinical data based optimal STI stategies for HIV: a reinforcment learning approach](https://ieeexplore.ieee.org/abstract/document/4177178)
+    - Challenge inspired by the 2006 paper by Ernst & al. [Clinical data based optimal STI strategies for HIV: a reinforcement learning approach](https://ieeexplore.ieee.org/abstract/document/4177178)
     - We have 4 actions : prescribe nothing, prescribe reverse transcriptase inhibitors, prescribe protease inhibitors, prescribe both
     - I implemented a DQN to solve it, performed great on the patient the algorithm was trained on, less performed on random patients.
 
@@ -73,7 +73,7 @@ Next, I present my internship topics in detail.
 - Pattern recognition and detection
 - Feature extraction and selection
 - Representation learning
-- Data enhancement and preproceesing
+- Data enhancement and preprocessing
 - Anomaly detection
 - Multivariate time series
 - Presentation of the following article $${\color{red}\text{Soft-DTW: a Differentiable Loss Function for Time-Series}}$$ [ARTICLE](https://arxiv.org/abs/1703.01541)
@@ -143,10 +143,10 @@ Next, I present my internship topics in detail.
 - $${\color{red}\text{Prediction of a Premier League season using previous seasons and Monte Carlo methods}}$$
   
     - In 2015-2016, Leicester won their Premier League despite being far from favourites. The bookmakers haven't even given them a 0.5% chance.
-    - In our modelling of Premier Ligue, we used previous seasons to model the strength of a team i $V_i$. This is the **Bradley-Terry** model. In this case, when the team i faces the team j, their probability to win is $\frac{V_i}{V_i+V_j}$ (note that ties are not allowed).
-    - With that, we case modelise Premier League, but Leicester has a winrate of 0% when we use Naive Monte Carlo
+    - In our modelling of Premier League, we used previous seasons to model the strength of a team i $V_i$. This is the **Bradley-Terry** model. In this case, when the team i faces the team j, their probability to win is $\frac{V_i}{V_i+V_j}$ (note that ties are not allowed).
+    - With that, we can model Premier League, but Leicester has a winrate of 0% when we use Naive Monte Carlo
     - We use importance sampling to modify the strengths of the teams, where the more we modify, the larger the corrective term becomes.
-    - With that, we predised the chances for Leicester to Win, and it was a frequency of the order of $10^{-4}$
+    - With that, we predicted the chances for Leicester to Win, and it was a frequency of the order of $10^{-4}$
 
 ### Statistics
 - Hypothesis test
@@ -155,10 +155,10 @@ Next, I present my internship topics in detail.
 - Introduction to Machine learning with theoretical guarantees
 
 ### Differential calculus and holomorphic functions
-- Introduction to holomophic function
+- Introduction to holomorphic function
 - Residue theorem
 - Complex logarithm
 
 ### Modelling random phenomena
-- Introduction to martingals, central limit theorem
+- Introduction to martingales, central limit theorem
 - Convergence : In probability, almost surely, in $L^1$, in $L^2$, in distribution
