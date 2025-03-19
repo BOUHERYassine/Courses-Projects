@@ -49,7 +49,7 @@ Next, I present my internship topics in detail.
     - We want to know how close, in terms of n, are the empirical estimators close to the real values.
     - We reproduce the Proof of **Vershynin** (2011). If the $\mathbb{H} = \mathbb{R}^p$, and if X is sub-gaussian ans isotropic ($\Sigma = I$), we have $$\lVert \hat{\Sigma_n} - \Sigma \lVert < C (\sqrt{\frac{p}{n}} \vee \frac{p}{n} \vee \sqrt{\frac{t}{n}} \vee \frac{t}{n})$$   , with a probability of at least $1-e^{-t}$
     - Now that the covariance matrix convergence is bounded, we can bound the convergence of eigenvalues with Lidskii's inequality : $$\max_{j \ge 1} |\hat{\lambda_j} - \lambda_j| < \lVert \hat{\Sigma} - \Sigma \rVert$$
-    - We also prove that the empirical projectors converge $$\mathbb{E}\[\| \hat{P_1} - P_1 \|_2^2 \] = \frac{1}{n}\sum_{j\geq2}\frac{\lambda_1 \lambda_j}{(\lambda_1-\lambda_j)^2} (1 + o(1)) \lesssim \frac{\lambda_1 \lambda_2}{g_1^2} \frac{r(\Sigma)}{n}$$
+    - We also prove that the empirical projectors converge $$\mathbb{E}(\| \hat{P_1} - P_1 \|_2^2) = \frac{1}{n}\sum_{j\geq2}\frac{\lambda_1 \lambda_j}{(\lambda_1-\lambda_j)^2} (1 + o(1)) \lesssim \frac{\lambda_1 \lambda_2}{g_1^2} \frac{r(\Sigma)}{n}$$
 
 ### Random numerical simulation of rare events
 - Monte Carlo methods : Naive, Importance Sampling and more
