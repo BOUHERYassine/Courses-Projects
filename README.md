@@ -38,10 +38,9 @@ Next, I present my internship topics in detail.
 - Stastics of extreme values
 - AR and MA processes, and all of its variants (ARIMA, ARFIMA, SARIMAX, SARIMA etc..)
 - $${\color{red}\text{Study of statistical methods}}$$
-  
-      - Extreme values on CAC40 data with Picklands and Hill estimators (to caracterize the type of the extreme)
-      - GARCH and ARCH processes on CAC40 data to study the variance/volatility
-      - I do not develop the results obtained because they were deceiving, the idea of the project was rather to play with the concepts
+    - Extreme values on CAC40 data with Picklands and Hill estimators (to caracterize the type of the extreme)
+    - GARCH and ARCH processes on CAC40 data to study the variance/volatility
+    - I do not develop the results obtained because they were deceiving, the idea of the project was rather to play with the concepts
 
 ### Monte Carlo methods
 - Review of all advanced Monte Carlo's methods
