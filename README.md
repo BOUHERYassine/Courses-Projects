@@ -99,7 +99,7 @@ Here is a list of my courses over the last 3 years. In some courses, there are p
 - High dimensional statistics
 
 ### Random and statistical process modelling
--Overview of a lot of statistical methods
+- Overview of a lot of statistical methods
 - Central Limit theorem adapted for medians
 - Statistics of extreme values
 - AR and MA processes, and all of its variants (ARIMA, ARFIMA, SARIMAX, SARIMA etc..)
