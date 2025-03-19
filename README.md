@@ -33,12 +33,31 @@ Next, I present my internship topics in detail.
 ### Statistical Learning
 
 ### Random and statistical process modelling
+-Overview of a lot of statistical methods
+- Central Limit theorem adapted for medians
+- Stastics of extreme values
+- AR and MA processes, and all of its variants (ARIMA, ARFIMA, SARIMAX, SARIMA etc..)
+- $${\color{red}\text{Study of statistical methods}}$$
+      - Extreme values on CAC40 data with Picklands and Hill estimators (to caracterize the type of the extreme)
+      - GARCH and ARCH processes on CAC40 data to study the variance/volatility
+      - I do not develop the results obtained because they were deceiving, the idea of the project was rather to play with the concepts
 
 ### Monte Carlo methods
+- Review of all advanced Monte Carlo's methods
+- MCMC (Markov chains Monte Carlo), Metropolis Hastings algorithm
+- Variance reduction and stratification
+- Rejection sampling
+- Quasi-Monte Carlo
 
 ### Foundation of Machine Learning
-
+- In-depth study of theoretical guarantees of Machine Leaning (wth Hoeffding's and McDiarmid's inequalities)
+- Overview of most of machine learning algorithms, Ensemble methods, SVM, Clustering, Gradient descent, Deep learning
 ### Stochastic calculus
+- Brownian motion
+- Ito's formula
+- Stochastic integrals
+- Stochastic differential equations (SDE)
+- Black-Scholes model
 
 ### Research course (PCA guarantees)
 - Fully research-axed course
@@ -49,7 +68,7 @@ Next, I present my internship topics in detail.
     - We want to know how close, in terms of n, are the empirical estimators close to the real values.
     - We reproduce the Proof of **Vershynin** (2011). If the $\mathbb{H} = \mathbb{R}^p$, and if X is sub-gaussian ans isotropic ($\Sigma = I$), we have $$\lVert \hat{\Sigma_n} - \Sigma \lVert < C (\sqrt{\frac{p}{n}} \vee \frac{p}{n} \vee \sqrt{\frac{t}{n}} \vee \frac{t}{n})$$   , with a probability of at least $1-e^{-t}$
     - Now that the covariance matrix convergence is bounded, we can bound the convergence of eigenvalues with Lidskii's inequality : $$\max_{j \ge 1} |\hat{\lambda_j} - \lambda_j| < \lVert \hat{\Sigma} - \Sigma \rVert$$
-    - We also prove that the empirical projectors converge $$\mathbb{E}(\| \hat{P_1} - P_1 \|_2^2) = \frac{1}{n}\sum_{j\geq2}\frac{\lambda_1 \lambda_j}{(\lambda_1-\lambda_j)^2} (1 + o(1)) \lesssim \frac{\lambda_1 \lambda_2}{g_1^2} \frac{r(\Sigma)}{n}$$
+    - An application to this study was to do a simple spectral clustering setup with gaussian mixtures
 
 ### Random numerical simulation of rare events
 - Monte Carlo methods : Naive, Importance Sampling and more
