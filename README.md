@@ -1,4 +1,4 @@
-Courses-Projects, Internships
+Courses-Projects
 
 Here is a list of my courses over the last 3 years. In some courses, there are projects which are mentioned in $${\color{red}red}$$
 
@@ -7,16 +7,48 @@ Next, I present my internship topics in detail.
 ## MVA
 
 ### Large Language Models
+- Study of all aspects of LLM
+- Tokenizer, Attention mechanism, positional encoding
+- $${\color{red}\text{Code a tokenizer for additions}}$$
+    - We coded several tokenizers that are adapted to additions. We achieved good results (up to additions of numbers with 9 digits), by grouping units with units, tens with tens etc...)
+- Specificities of DeepSeek, GRPO, Multi-head lattent attention
+- We reproduce the GRPO code with simple examples 
 
 ### Genrative AI for images
+- Generative Adversarial Networks and Wasserstein Generative Adversarial Networks (with the Wassertein loss derived from the optimal transport)
+- Variational Autoencoders
+- Diffusion models
+- Presentation of the following article $${\color{red}\text{Neural Optimal Transport}}$$ [ARTICLE](https://arxiv.org/abs/2201.12220)
+    - Transport maps and plans are computed through neural networks
+    - The optimal transport with $\gamma$-weak Wasserstein-2 cost can be traduced as an optimization under constraints
+    - We prove some points of the article, including the main idea of the article which is noise outsourcing
+    - We reproduce some 2D experiment where we transport a gaussian distribution into a mixture of gaussian/circle/line distribution
+    - We show that this model is excellent when transporting images to images, but not powerful enoughto transport gaussian noise to images (that means not powerful enough for image generation like WGAN/VAE/Diffusion)
 
 ### Graphs in ML
+- How to construct a graph from a list of points, how to represent them
+- Spectral clustering
+- Semi supervised learning : Hard and soft harmonic solutions, label propagation
+- Graph Neural networks, graph convolutional layers, graph attention layers, graph classification, link prediction, node classification
 
-### Data generation by transport and denoising
+### Convex Optimisation
+- Foundation of convex optimization
+- Convex functions, convex sets
+- Optimization under constraints
+- Duality
+- Lagragian and saddle points
+- First and second order methods
 
-### Convex Optimisatoin
-
-### Reinforcment Learnine
+### Reinforcment Learning
+- Foundation of reinforcment learning, policy, optimal policy, reward, Bellman equations etc..
+- Theoretical study of learning policies
+- Fitted Q-iterations
+- deep Q-networks
+- Proximal policy optimization
+- ${\color{red}\text{Reinforcement Learning for optimal HIV treatment decision-making}}
+    - Challenge inspired by the 2006 paper by Ernst & al. [Clinical data based optimal STI stategies for HIV: a reinforcment learning approach](https://ieeexplore.ieee.org/abstract/document/4177178)
+    - We have 4 actions : prescribe nothing, prescribe reverse transcriptase inhibitors, prescribe protease inhibitors, prescribe both
+    - I implemented a DQN to solve it, performed great on the patient the algorithm was trained on, less performed on random patients.
 
 ### Stopping times and online algorithms
 - Mathematical guarantees of the competitive ratio of online algorithms
@@ -130,8 +162,3 @@ Next, I present my internship topics in detail.
 ### Modelling random phenomena
 - Introduction to martingals, central limit theorem
 - Convergence : In probability, almost surely, in $L^1$, in $L^2$, in distribution
-
-
-# Intenships
-
-## Ekimetrics
