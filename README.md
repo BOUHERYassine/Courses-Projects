@@ -23,6 +23,16 @@ Next, I present my internship topics in detail.
 ### Deep learning
 
 ### Statistical Learning with extreme values
+- Fundamentals of extreme values theory
+- Central limit theorem derived for extremes
+- Type of extremes
+- Peaks thresholds and block maximas
+- Multivariate extremes
+- Presentation of the following article $${\color{red}\text{On the optimal prediction of extreme events in heavy-tailed time series with applications to solar flare forecasting}}$$ [ARTICLE](https://arxiv.org/abs/2407.11887)
+    - Introduction of calibrated predictors, asymptotic optimal predictors
+    - Reproducing the forecasting of extreme values of the solar flare dataset obtained from the NASA open-source archive
+    - Comparison of performances between a baseline model, a FARIMA process and an AR process
+    - We show that our results are coherent with the authors' findings. At a fixed horizon h, we have the precision of the 3 predictors assopciated with each methods. The precision is the probability of actually observing an extreme event knowing that there is one extrme event at t+h. The bigger the horizon, the more performant the FARIMA process is compared to the baseline.
 
 ### Time Series
 - Pattern recognition and detection
