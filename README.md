@@ -44,7 +44,7 @@ Here is a list of my courses over the last 3 years. In some courses, there are p
 - Fitted Q-iterations
 - deep Q-networks
 - Proximal policy optimization
-- ${\color{red}\text{Reinforcement Learning for optimal HIV treatment decision-making}}
+- $${\color{red}\text{Reinforcement Learning for optimal HIV treatment decision-making}}$$
     - Challenge inspired by the 2006 paper by Ernst & al. [Clinical data based optimal STI strategies for HIV: a reinforcement learning approach](https://ieeexplore.ieee.org/abstract/document/4177178)
     - We have 4 actions : prescribe nothing, prescribe reverse transcriptase inhibitors, prescribe protease inhibitors, prescribe both
     - I implemented a DQN to solve it, performed great on the patient the algorithm was trained on, less performed on random patients.
