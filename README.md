@@ -29,8 +29,14 @@ Next, I present my internship topics in detail.
 ## Ecole Polytechnique
 
 ### Collaborative machine learning and decentralized learning
+- Fully research-axed course
+- Study of decentralized learning
+- Presentation of the following article : $${\color{red}\text{Accelerated Decentralized Optimization with Local Updates for Smooth and Strongly Convex Objectives}}$$ [ARTICLE](https://arxiv.org/abs/1810.02660)
 
 ### Statistical Learning
+- Rademacher complexity, VC dimension, PAC learning
+- Bandit algorithms
+- High dimensional statistics
 
 ### Random and statistical process modelling
 -Overview of a lot of statistical methods
