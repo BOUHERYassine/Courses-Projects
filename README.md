@@ -21,6 +21,7 @@ Next, I present my internship topics in detail.
 ### Stopping times and online algorithms
 - Mathematical guarantees of the competitive ratio of online algorithms
 - Presentation of the following article $${\color{red}\text{Deterministic Min-Cost Matching with Delays}}$$ [ARTICLE](https://arxiv.org/abs/1806.03708)
+    - This is the first deterministic algorithm for the online matching problem that is achieving a sub-linear competitive ratio
     - The goal is to match requests that are arriving in an online manner, while minimizing the sum of distances between matched pairs
     - We did all the proof of the competitive ratio of the algorithm, which is $O(m^{log(\frac{3}{2}+\epsilon)}) \sim m^{0.59}$ for a small enough $\epsilon$
 
