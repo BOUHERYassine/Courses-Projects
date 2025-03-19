@@ -48,6 +48,7 @@ Next, I present my internship topics in detail.
     - We sample $X_1$, ..., $X_n$ from X, we obtain empirical estimators of the covariance matrix and the eingenvalues : $\hat{\Sigma_n} = \sum_{i=1}^n X_i \otimes X_i = \sum_{j\ge 1} \hat{\lambda_j} \hat{\theta_j} \otimes \hat{\theta_j}$
     - We want to know how close, in terms of n, are the empirical estimators close to the real values.
     - We reproduce the Proof of **Vershynin** (2011). If the $\mathbb{H} = \mathbb{R}^p$, and if X is sub-gaussian ans isotropic ($\Sigma = I$), we have $$\lVert \hat{\Sigma_n} - \Sigma \lVert < C (\sqrt{\frac{p}{n}} \vee \frac{p}{n} \vee \sqrt{\frac{t}{n}} \vee \frac{t}{n})$$   , with a probability of at least $1-e^{-t}$
+    - Now that the covariance matrix convergence is bounded, we can bound the convergence of eigenvalues with Lidskii's inequality : $$\max_{j \ge 1} |\hat{\lambda_j} - \lambda_j| < \lVert \hat{\Sigma} - \Sigma \rVert$$
 
 ### Random numerical simulation of rare events
 - Monte Carlo methods : Naive, Importance Sampling and more
