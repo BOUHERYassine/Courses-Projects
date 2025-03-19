@@ -22,7 +22,7 @@ Next, I present my internship topics in detail.
 - Mathematical guarantees of the competitive ratio of online algorithms
 - Presentation of the following article $${\color{red}\text{Deterministic Min-Cost Matching with Delays}}$$ [ARTICLE](https://arxiv.org/abs/1806.03708)
     - The goal is to match requests that are arriving in an online manner, while minimizing the sum of distances between matched pairs
-    - We did all the proof of the competitive ratio of the algorithm, which is $O(m^{log(\frac{3}{2}+\epsilon)}) ~ m^{0.59}$ for a small enough $\epsilon$
+    - We did all the proof of the competitive ratio of the algorithm, which is $O(m^{log(\frac{3}{2}+\epsilon)}) \sim m^{0.59}$ for a small enough $\epsilon$
 
 ### Statistical Learning with extreme values
 - Fundamentals of extreme values theory
