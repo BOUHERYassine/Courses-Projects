@@ -45,11 +45,11 @@ Next, I present my internship topics in detail.
 ### Random numerical simulation of rare events
 - Monte Carlo methods : Naive, Importance Sampling and more
 - $${\color{red}\text{Prediction of a Premier League season using previous seasons and Monte Carlo methods}}$$
-    - In 2015-2016, Leicester won their Premier Ligue despite being far from favourites. The bookmakers haven't even given them a 0.5% chance.
+    - In 2015-2016, Leicester won their Premier League despite being far from favourites. The bookmakers haven't even given them a 0.5% chance.
     - In our modelling of Premier Ligue, we used previous seasons to modelise the strength of a team i $V_i$. This is the **Bradley-Terry** model. In this case, when the team i faces the team j, their probability to win is $\frac{V_i}{V_i+V_j}$ (note that ties are not allowed).
-    - With that, we case modelise Premier Ligue, but Leicester has a winrate of 0% when we use Naive Monte Carlo
+    - With that, we case modelise Premier League, but Leicester has a winrate of 0% when we use Naive Monte Carlo
     - We use importance sampling to modify the strenghts of the teams (the more we modify, the bigger the corrective term will be)
-    - With that, we predised the chances for Leicester to Win, and it was a frequency of $10^{-4}$ 
+    - With that, we predised the chances for Leicester to Win, and it was a frequency of the order of $10^{-4}$ 
 
 ### Statistics
 - Hypothesis test
