@@ -47,7 +47,7 @@ Next, I present my internship topics in detail.
     - In our case, we considered an distribution of features X (can be an "infinite matrix") evolving on a Hilbert space $\mathbb{H}$, its covariance matrix is $\Sigma = \mathbb{E}(X \otimes X)$
     - We sample $X_1$, ..., $X_n$ from X, we obtain empirical estimators of the covariance matrix and the eingenvalues : $\hat{\Sigma_n} = \sum_{i=1}^n X_i \otimes X_i = \sum_{j\ge 1} \hat{\lambda_j} \hat{\theta_j} \otimes \hat{\theta_j}$
     - We want to know how close, in terms of n, are the empirical estimators close to the real values.
-    - We reproduce the Proof of **Vershynin** (2011). If the $\mathbb{H} = \mathbb{R}^p$, and if X is sub-gaussian ans isotropic ($\Simga = I$), we have $$ \lVert \frac{1}{n} X^T X - I \rVert \leq \max(\delta, \delta^2) := \epsilon$$, with a probability of at least $1-e^{-t}$
+    - We reproduce the Proof of **Vershynin** (2011). If the $\mathbb{H} = \mathbb{R}^p$, and if X is sub-gaussian ans isotropic ($\Sigma = I$), we have $$ \lVert \frac{1}{n} X^T X - I \rVert \leq \max(\delta, \delta^2) := \epsilon$$, with a probability of at least $1-e^{-t}$
 
 ### Random numerical simulation of rare events
 - Monte Carlo methods : Naive, Importance Sampling and more
