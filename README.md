@@ -25,6 +25,18 @@ Next, I present my internship topics in detail.
 ### Statistical Learning with extreme values
 
 ### Time Series
+- Pattern recognition and detection
+- Feature extraction and selection
+- Representation learning
+- Data enhancement and preproceesing
+- Anomaly detection
+- Multivariate time series
+- Presentation of the following article $${\color{red}\text{Soft-DTW: a Differentiable Loss Function for Time-Series}}$$ [ARTICLE](https://arxiv.org/abs/1703.01541)
+    - DTW loss allows to compare time series that are not of the same length, but it is not differentiable
+    - Soft-DTW is a variant of DTW that is differentiable. It can be useful for methods that use gradients
+    - Time series averaging using soft-DTW (on some time series from the M4 dataset)
+    - Time series clustering using soft-DTW
+    - Study of the influence of the $\gamma$ parameter of the soft-DTW loss.
 
 ## Ecole Polytechnique
 
